@@ -1,7 +1,7 @@
 service: my-serverless-service
 provider:
   name: aws
-  runtime: nodejs14.x
+  runtime: nodejs20.x
   region: us-east-1
 functions:
   myFunction:
